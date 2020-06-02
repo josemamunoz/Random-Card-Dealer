@@ -14,7 +14,8 @@ let cardTypeBottom = document.createElement("div");
 //CSS: Asignamos la posición de los simbolos
 
 cardTypeTop.style.textAlign = "left";
-cardTypeBottom.style.textAlign = "right";
+cardTypeBottom.style.textAlign = "left";
+cardTypeBottom.style.transform = "rotate(180deg)";
 
 /* Generamos la pinta y el numero de la carta aleatoriamente
 tanto el top como el bottom de la carta deben tener la misma pinta, 
